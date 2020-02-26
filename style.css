@@ -21,6 +21,7 @@ body {
 
 a {
   color: #D9555F;
+  text-decoration: none;
 }
 
 a:hover {
@@ -78,7 +79,6 @@ h5 {
   background-color: white;
   padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
   border-radius: 50px;
 }
 
@@ -95,4 +95,22 @@ h5 {
 .fab:hover {
   font-size: 30px;
   color: #393E41;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    margin: 10% 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin: 10% 5%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    margin: 10% 2.5%;
+  }
 }
