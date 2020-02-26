@@ -74,7 +74,7 @@ h5 {
 }
 
 .button {
-  border: none;
+  border: 1px dotted #D9555F;
   background-color: white;
   padding: 10px 20px;
   text-align: center;
