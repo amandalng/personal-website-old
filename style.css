@@ -1,0 +1,98 @@
+body {
+  font-family: 'Raleway';
+  color: #393E41;
+  background-color: #F4F4F4;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.container {
+  margin: 10% 20%;
+}
+
+.card {
+  /*border: 1px solid grey;*/
+  background-color: #F5F5F5;
+  margin: 8% 0%;
+  padding: 5% 5%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 28px 0px rgba(181,181,181,1);
+}
+
+a {
+  color: #D9555F;
+}
+
+a:hover {
+  color: #393E41;
+}
+
+p {
+  line-height: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h3 {
+  color: #D9555F;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 500;
+}
+
+h4 {
+  color: #D9555F;
+  text-align: center;
+  font-weight: 500;
+}
+
+h5 {
+  color: #E3838A;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  background-color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.button:hover {
+  border: 1px dotted #393E41;
+  color: #393E41;
+}
+
+.fab {
+  font-size: 30px;
+  color: #D9555F;
+}
+
+.fab:hover {
+  font-size: 30px;
+  color: #393E41;
+}
